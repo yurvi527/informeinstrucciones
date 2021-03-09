@@ -13,15 +13,15 @@
         \vspace*{1cm}
             
         \Huge
-        \textbf{Título del trabajo}
+        \textbf{Desafío}
             
         \vspace{0.5cm}
         \LARGE
-        Subtítulo
+        Ejercicio sobre instrucciones.
             
         \vspace{1.5cm}
             
-        \textbf{Nombres y Apellidos del autor}
+        \textbf{Yuribia Viviana Arroyave}
             
         \vfill
             
@@ -38,71 +38,68 @@
 
 \tableofcontents
 \newpage
-\section{Sección introductoria}\label{intro}
-Esta es la primera sección, podemos agregar algunos elementos adicionales y todo será escrito correctamente. Más aún, si una palabra es demasiado larga y tiene que ser truncada, babel tratará de truncarla correctamente dependiendo del idioma.
+\section{Introduccción}\label{intro}
+En presente trabajo se documenta la solución a un desafío sobre la manera de dar instrucciones para llevar unos  objetos, dos trajetas y una hoja de papel, desde una posición inicial hasta una posición final.
 
-\section{Sección de contenido} \label{contenido}
-Esta sección es para agregar toda la información correspondiente con código, citas, etc.
-\subsection{Citación}
-Vamos a citar por ejemplo un artículo de \textbf{Albert Einstein} \cite{einstein}.
-También es posible citar libros \cite{dirac} o documentos en línea \cite{knuthwebsite}.\\\\
-Revisar en la última sección el formato de las referencias en IEEE.
+\section{Contenido} \label{contenido}
+El desafío consiste en llevar los objetos: dos tarjetas y una hoja de papel desde la posición A a la posición B siguiendo unas instrucciones dadas, dichas instrucciones fueron llevadas a cabo por tres personas diferentes con el fin de comprobar qué tan eficiente es la solución brindada. El ejercicio se encuentra documentado en un vídeo.
+\vspace{0.8cm}
 
-\subsection{Incluir código en el documento}
-%
-A continuación, se presenta el código \ref{codigo_ejemplo}, que nos permite incluir en el informe partes de programa que requieran una explicación adicional.
-\begin{lstlisting}[language=C++, label=codigo_ejemplo]
-// Programa desarrollado, compilado y ejecutado en https://www.onlinegdb.com
-#include <iostream>
+Posición A: Ambas tarjetas están de plano sobre un superfie una sobre la otra, y sobre ellas una hoja de papel.
 
-/*
- * Esto es un comentario de varias lineas
- */
+\vspace{0.8cm}
 
-// Comentario de una sola linea
+Posición B: Ambas tarjetas se hallan sobre la hoja de papel formando un triángulo, donde la base es el ppel y las tarjetas son los lados del triángulo.
 
-#define N 10
+\subsection{Instrucciones}
 
-using namespace std;
+\vspace{0.2cm}
 
-int main()
-{
-    
-    for( int i = 0 ; i < N ; i++ ){
-        
-        if( !(i % 2) )
-            cout << " El valor de i es -> " << i << endl;
-    }
-    
-    return 0;
-}
+\begin{itemize}
+\item Hacer todo con una sola mano.
+\item Tomar la hoja y correrla, dejando por fuera las tarjetas.
+\item Poner ambas tarjetas sobre la hoja, una tarjeta sobreponiendo a la otra.
+\item Con los dedos indice y pulgar tomar ambas tarjetas por uno de los lados más cortos.
+\item Levantar las tarjetas en forma vertical, la mano queda hacia arriba y las tarjetas por el lado opuesto a la mano, quedan sobre la hoja de papel.
+\item Sin soltar el indice y pulgar, poner uno de los otros dedos en medio de ambas tarjetas por uno de los lados.
+\item Ir separandolas suavemente en el extremo la inferior hasta formar un triángulo, ayudarse con los otros dedos.
+\item Soltar las tarjetas cuando éstas formen un triángulo que se pueda sostener.
+\end{itemize}
+\subsection{Evidencia en vídeo}
+El vídeo con la evidencia del presente ejercicio está alojado en la página web www.youtube.com, y su enlace directo es:
+https://youtu.be/ClHFobs1Swc
 
-//Resultado programa
+\newpage
 
-/*
-El valor de i es -> 0
-El valor de i es -> 2
-El valor de i es -> 4
-El valor de i es -> 6
-El valor de i es -> 8
-*/
-\end{lstlisting}
-En la sección \ref{imagenes}, se presentará como añadir ilustraciones al texto.
 
-\section{Inclusión de imágenes} \label{imagenes}
+\section{Imágenes} \label{imagenes}
 
-En la Figura (\ref{fig:cpplogo}), se presenta el logo de C++ contenido en la carpeta images.
 
 \begin{figure}[h]
-\includegraphics[width=4cm]{cpplogo.png}
+\includegraphics[width=6cm]{pos_a.png}
 \centering
-\caption{Logo de C++}
-\label{fig:cpplogo}
+\caption{Posición A}
+\label{fig:pos_a}
 \end{figure}
 
-Las secciones (\ref{intro}), (\ref{contenido}) y (\ref{imagenes}) dependen del estilo del documento.
 
-\bibliographystyle{IEEEtran}
-\bibliography{references}
+\begin{figure}[h]
+\includegraphics[width=6cm]{pos_b.png}
+\centering
+\caption{Posición B}
+\label{fig:pos_b}
+\end{figure}
+
+\section{Conclusiones} \label{conclusiones}
+
+Al momento de solucionar un problema es importante tener claridad sobre el problema que se quiere resolver,  y trazarse un objetivo al que se debe llegar con la solución propuesta.
+\vspace{0.8cm}
+
+Los pasos o instrucciones que deben llevar a cabo para dar solución a un problema deben darse en un lenguaje claro y preciso, para que su interpretación pueda ser la correcta y así llevar a cabo una solución eficiente.
+\vspace{0.8cm}
+
+Las pruebas son muy importantes en el desarrollo de soluciones eficientes, ya que permiten encontrar fallas en las instrucciones y así modificarlas oportunamente.
+
+
 
 \end{document}
